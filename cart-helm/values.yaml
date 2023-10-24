@@ -1,0 +1,12 @@
+namespace: dev
+
+replicaCount: 1
+appName: cart
+containerName: cart
+
+serviceName: cart-service
+serviceType: ClusterIP
+
+image:
+  name: azuresolutionregistry.azurecr.io/cartmicroservice
+  tag: {{tag}}
